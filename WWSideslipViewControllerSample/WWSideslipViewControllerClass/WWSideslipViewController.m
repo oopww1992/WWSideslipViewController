@@ -45,6 +45,7 @@
                    andRightView:(UIViewController *)RighView
                         andBackgroundImage:(UIImage *)image;
 {
+    self = [super init];
     if(self){
         speedf = 0.5;
         
